@@ -1,0 +1,29 @@
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+</style>
+<table>
+    <tr>
+        <th>Age Group</th>
+        <th>Number of vehicles sold</th>
+    </tr>
+    {% for age, num in data.items %}
+    <tr>
+        <td>{{age}}</td>
+        <td>{{num}}</td>
+    </tr>
+    {% endfor %}
+</table>

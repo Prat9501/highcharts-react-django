@@ -1,0 +1,29 @@
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+</style>
+<table>
+    <tr>
+        <th>Year</th>
+        <th>Vehicles sold</th>
+    </tr>
+    {% for year, num in data.items %}
+    <tr>
+        <td>{{year}}</td>
+        <td>{{num}}</td>
+    </tr>
+    {% endfor %}
+</table>
