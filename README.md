@@ -1,6 +1,8 @@
+![](highcharts.gif)
+
 The project structure is followed as
-    - Backend
-    - Frontend
+    - Backend build using Django
+    - Frontend build using React
 
 Backend:
     - Create virtual environment.
