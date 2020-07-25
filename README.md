@@ -1,16 +1,16 @@
 ![](highcharts.gif)
 
-The project structure is followed as
+- The project structure is followed as:
     - Backend build using Django
     - Frontend build using React
 
-Backend:
+- Backend:
     - Create virtual environment.
     - cd backend/vehicle_sales
     - pip install -r requirements.txt
     - python manage.py runserver 9000
 
-Frontend:
+- Frontend:
     - cd frontend
     - npm install
     - npm start
